@@ -1,0 +1,31 @@
+//
+//  Solucis.pch
+//  Solucis
+//
+//  Created by Lam Si Mon on 16-03-03.
+//  Copyright © 2016 Lam Si Mon. All rights reserved.
+//
+
+#ifndef Solucis_pch
+#define Solucis_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "BaseViewController.h"
+#import "UIColor+NavigationBar.h"
+#import "UIAlertView+Error.h"
+#import "ShopViewController.h"
+#import "RequestMgr.h"
+#import "LocalStorage.h"
+#import "SalesType.h"
+#import "DateRange.h"
+#import "NSString+MCOcean.h"
+#import "Constant.h"
+#import "NSBundle+Language.h"
+#import <Mantle/Mantle.h>
+#import <LCLoadingHUD/LCLoadingHUD.h>
+#import <PayPal-iOS-SDK/PayPalMobile.h>
+#endif /* Solucis_pch */
+
+

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Bold.ttf">
+            <string>OpenSans-Bold</string>
+        </array>
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="144" id="KGk-i7-Jjw" customClass="RDAliPayAccountCell">
+            <rect key="frame" x="0.0" y="0.0" width="382" height="144"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="382" height="143.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ALIPAY ACCOUNT NO." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Fc-wV-hh5">
+                        <rect key="frame" x="16" y="24" width="350" height="19.5"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="14"/>
+                        <color key="textColor" red="0.98039215690000003" green="0.69803921570000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t3f-0b-a3l">
+                        <rect key="frame" x="16" y="43.5" width="350" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="n3G-9h-Hrf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                    </textField>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ALIPAY ACCOUNT NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ONd-kA-ZUo">
+                        <rect key="frame" x="16" y="83.5" width="350" height="19.5"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="14"/>
+                        <color key="textColor" red="0.98039215690000003" green="0.69803921570000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hRj-WO-Dtl">
+                        <rect key="frame" x="16" y="103" width="350" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Sd6-xg-2B8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="6Fc-wV-hh5" firstAttribute="leading" secondItem="t3f-0b-a3l" secondAttribute="leading" id="39Z-XG-WHU"/>
+                    <constraint firstItem="6Fc-wV-hh5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="4jw-X5-0iM"/>
+                    <constraint firstItem="6Fc-wV-hh5" firstAttribute="trailing" secondItem="t3f-0b-a3l" secondAttribute="trailing" id="6G3-fB-V6l"/>
+                    <constraint firstItem="ONd-kA-ZUo" firstAttribute="trailing" secondItem="hRj-WO-Dtl" secondAttribute="trailing" id="BpN-3R-otK"/>
+                    <constraint firstItem="6Fc-wV-hh5" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="QPQ-Hu-o66"/>
+                    <constraint firstItem="t3f-0b-a3l" firstAttribute="top" secondItem="6Fc-wV-hh5" secondAttribute="bottom" id="RHl-7I-Y8X"/>
+                    <constraint firstItem="6Fc-wV-hh5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="13" id="SL2-if-c41"/>
+                    <constraint firstItem="hRj-WO-Dtl" firstAttribute="top" secondItem="ONd-kA-ZUo" secondAttribute="bottom" id="VgQ-ox-Y9l"/>
+                    <constraint firstItem="ONd-kA-ZUo" firstAttribute="leading" secondItem="hRj-WO-Dtl" secondAttribute="leading" id="dTz-rC-gFb"/>
+                    <constraint firstItem="t3f-0b-a3l" firstAttribute="trailing" secondItem="ONd-kA-ZUo" secondAttribute="trailing" id="gsf-Ks-oxk"/>
+                    <constraint firstItem="t3f-0b-a3l" firstAttribute="leading" secondItem="ONd-kA-ZUo" secondAttribute="leading" id="vOU-aw-Q8H"/>
+                    <constraint firstItem="ONd-kA-ZUo" firstAttribute="top" secondItem="t3f-0b-a3l" secondAttribute="bottom" constant="19" id="x2k-gD-uC4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="alipayAccNameLoc" destination="ONd-kA-ZUo" id="B4z-3Z-Oam"/>
+                <outlet property="alipayAccNameTF" destination="hRj-WO-Dtl" id="RxR-TW-V75"/>
+                <outlet property="alipayAccNoLoc" destination="6Fc-wV-hh5" id="d8o-9l-RXv"/>
+                <outlet property="alipayAccNoTF" destination="t3f-0b-a3l" id="3kH-C5-9tX"/>
+            </connections>
+            <point key="canvasLocation" x="-245" y="-119"/>
+        </tableViewCell>
+    </objects>
+</document>

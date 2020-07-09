@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Bold.ttf">
+            <string>OpenSans-Bold</string>
+        </array>
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="443" id="KGk-i7-Jjw" customClass="RDBankAccountInfoTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="352" height="443"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="352" height="442.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHINA BANK" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j6n-sw-6ln">
+                        <rect key="frame" x="16" y="18" width="320" height="21"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="14"/>
+                        <color key="textColor" red="0.98039215690000003" green="0.69803921570000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mrY-YK-7KY">
+                        <rect key="frame" x="16" y="38" width="289" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="i4p-38-hBo"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BANK ACCOUNT NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ixv-1J-dke">
+                        <rect key="frame" x="16" y="83" width="320" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="SdH-Cm-7Lp"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="14"/>
+                        <color key="textColor" red="0.98039215690000003" green="0.69803921570000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4LX-mS-uC6">
+                        <rect key="frame" x="305" y="38" width="31" height="21"/>
+                        <state key="normal" image="arrow-picker-grey"/>
+                        <connections>
+                            <action selector="dropDownButtonDidTouchUp:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="oP5-6P-KE6"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BANK ACCOUNT NO." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1cJ-cd-8QB">
+                        <rect key="frame" x="16" y="149" width="320" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Hqb-BM-e5t"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="14"/>
+                        <color key="textColor" red="0.98039215690000003" green="0.69803921570000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BANK ACCOUNT NIRC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7SY-JJ-nO0">
+                        <rect key="frame" x="16" y="215" width="320" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="VuF-Sd-D3W"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="14"/>
+                        <color key="textColor" red="0.98039215690000003" green="0.69803921570000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHINA BANK COUNTRY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CEw-ah-wQC">
+                        <rect key="frame" x="16" y="280" width="320" height="21"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="14"/>
+                        <color key="textColor" red="0.98039215690000003" green="0.69803921570000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WAb-El-Ivc">
+                        <rect key="frame" x="16" y="300" width="289" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="b9g-Eq-MlM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sVC-po-syg">
+                        <rect key="frame" x="304" y="300" width="30" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="4eH-3P-Umv"/>
+                        </constraints>
+                        <state key="normal" image="arrow-picker-grey"/>
+                        <connections>
+                            <action selector="dropDownButtonDidTouchUp:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Az9-23-Mbt"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cWD-Au-bxg">
+                        <rect key="frame" x="16" y="335" width="289" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="gRH-Fi-Fpz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2kY-Pu-Rds">
+                        <rect key="frame" x="304" y="335" width="30" height="21"/>
+                        <state key="normal" image="arrow-picker-grey"/>
+                        <connections>
+                            <action selector="dropDownButtonDidTouchUp:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="tLh-yO-HvE"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BANK BRANCH" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Pb-sT-cfM">
+                        <rect key="frame" x="15" y="380" width="319" height="21"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="14"/>
+                        <color key="textColor" red="0.98039215690000003" green="0.69803921570000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kdd-li-TQv">
+                        <rect key="frame" x="15" y="400" width="319" height="21"/>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                    </textField>
+                    <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cod-Bd-tOK">
+                        <rect key="frame" x="16" y="235" width="320" height="21"/>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                    </textField>
+                    <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f9G-RB-u12">
+                        <rect key="frame" x="16" y="170" width="320" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="7Rd-ez-vS4"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                    </textField>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qb8-9R-yHm">
+                        <rect key="frame" x="16" y="104" width="320" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="bzm-DB-CK9"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1cJ-cd-8QB" firstAttribute="trailing" secondItem="7SY-JJ-nO0" secondAttribute="trailing" id="0KW-9b-hBu"/>
+                    <constraint firstItem="ixv-1J-dke" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="0Tl-61-BT7"/>
+                    <constraint firstItem="WAb-El-Ivc" firstAttribute="top" secondItem="sVC-po-syg" secondAttribute="top" id="2AD-s4-dj8"/>
+                    <constraint firstItem="4LX-mS-uC6" firstAttribute="trailing" secondItem="qb8-9R-yHm" secondAttribute="trailing" id="3Oj-S3-s3R"/>
+                    <constraint firstItem="j6n-sw-6ln" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="3Xk-g9-GQy"/>
+                    <constraint firstItem="8Pb-sT-cfM" firstAttribute="leading" secondItem="kdd-li-TQv" secondAttribute="leading" id="AsI-6T-t9k"/>
+                    <constraint firstItem="ixv-1J-dke" firstAttribute="leading" secondItem="f9G-RB-u12" secondAttribute="leading" id="Bkg-4z-8NF"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="WAb-El-Ivc" secondAttribute="trailing" constant="31" id="DVX-sO-L88"/>
+                    <constraint firstItem="f9G-RB-u12" firstAttribute="leading" secondItem="cod-Bd-tOK" secondAttribute="leading" id="DhS-79-jxw"/>
+                    <constraint firstItem="j6n-sw-6ln" firstAttribute="leading" secondItem="mrY-YK-7KY" secondAttribute="leading" id="DkC-w7-8aT"/>
+                    <constraint firstItem="8Pb-sT-cfM" firstAttribute="trailing" secondItem="kdd-li-TQv" secondAttribute="trailing" id="E2a-Q9-NZb"/>
+                    <constraint firstItem="7SY-JJ-nO0" firstAttribute="top" secondItem="f9G-RB-u12" secondAttribute="bottom" constant="24" id="GQd-j4-xwQ"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="8Pb-sT-cfM" secondAttribute="bottom" constant="31" id="IDp-sI-GjK"/>
+                    <constraint firstItem="kdd-li-TQv" firstAttribute="top" secondItem="cWD-Au-bxg" secondAttribute="bottom" constant="44" id="Kxy-hq-Mnb"/>
+                    <constraint firstItem="CEw-ah-wQC" firstAttribute="leading" secondItem="WAb-El-Ivc" secondAttribute="leading" id="LBy-oq-a69"/>
+                    <constraint firstItem="WAb-El-Ivc" firstAttribute="bottom" secondItem="sVC-po-syg" secondAttribute="bottom" id="M0i-gY-CvF"/>
+                    <constraint firstItem="WAb-El-Ivc" firstAttribute="trailing" secondItem="cWD-Au-bxg" secondAttribute="trailing" id="MAM-Lx-3Za"/>
+                    <constraint firstItem="sVC-po-syg" firstAttribute="trailing" secondItem="2kY-Pu-Rds" secondAttribute="trailing" id="NBS-94-xXi"/>
+                    <constraint firstItem="j6n-sw-6ln" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="OLB-r5-L2d"/>
+                    <constraint firstItem="ixv-1J-dke" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="Qau-Y0-GZO"/>
+                    <constraint firstItem="CEw-ah-wQC" firstAttribute="top" secondItem="7SY-JJ-nO0" secondAttribute="bottom" constant="44" id="S8t-lg-zfR"/>
+                    <constraint firstItem="cWD-Au-bxg" firstAttribute="bottom" secondItem="2kY-Pu-Rds" secondAttribute="bottom" id="ThO-dk-McQ"/>
+                    <constraint firstItem="WAb-El-Ivc" firstAttribute="leading" secondItem="cWD-Au-bxg" secondAttribute="leading" id="WVe-S0-1Xi"/>
+                    <constraint firstItem="8Pb-sT-cfM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-1" id="XQw-m7-xJT"/>
+                    <constraint firstItem="sVC-po-syg" firstAttribute="leading" secondItem="2kY-Pu-Rds" secondAttribute="leading" id="YLU-KT-wbe"/>
+                    <constraint firstItem="7SY-JJ-nO0" firstAttribute="trailing" secondItem="CEw-ah-wQC" secondAttribute="trailing" id="YTT-dM-cZb"/>
+                    <constraint firstItem="mrY-YK-7KY" firstAttribute="bottom" secondItem="4LX-mS-uC6" secondAttribute="bottom" id="aFn-yw-xxd"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="kdd-li-TQv" secondAttribute="bottom" constant="11" id="au7-Kb-iUk"/>
+                    <constraint firstItem="j6n-sw-6ln" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="7" id="bll-gq-zqb"/>
+                    <constraint firstItem="f9G-RB-u12" firstAttribute="top" secondItem="1cJ-cd-8QB" secondAttribute="bottom" id="cHu-bE-OAT"/>
+                    <constraint firstItem="qb8-9R-yHm" firstAttribute="leading" secondItem="1cJ-cd-8QB" secondAttribute="leading" id="cNb-3Y-vft"/>
+                    <constraint firstItem="cWD-Au-bxg" firstAttribute="top" secondItem="WAb-El-Ivc" secondAttribute="bottom" constant="14" id="cd4-cH-L8e"/>
+                    <constraint firstItem="cod-Bd-tOK" firstAttribute="top" secondItem="f9G-RB-u12" secondAttribute="bottom" constant="44" id="e6N-R0-8uW"/>
+                    <constraint firstItem="mrY-YK-7KY" firstAttribute="top" secondItem="4LX-mS-uC6" secondAttribute="top" id="eJW-67-IrY"/>
+                    <constraint firstItem="WAb-El-Ivc" firstAttribute="top" secondItem="cod-Bd-tOK" secondAttribute="bottom" constant="44" id="fZ3-dA-oQg"/>
+                    <constraint firstItem="mrY-YK-7KY" firstAttribute="leading" secondItem="qb8-9R-yHm" secondAttribute="leading" id="fsI-iE-BxP"/>
+                    <constraint firstItem="CEw-ah-wQC" firstAttribute="top" secondItem="cod-Bd-tOK" secondAttribute="bottom" constant="24" id="gdb-QQ-0GN"/>
+                    <constraint firstItem="mrY-YK-7KY" firstAttribute="trailing" secondItem="WAb-El-Ivc" secondAttribute="trailing" id="hG4-AM-XF3"/>
+                    <constraint firstItem="cWD-Au-bxg" firstAttribute="top" secondItem="2kY-Pu-Rds" secondAttribute="top" id="hV1-O4-fjH"/>
+                    <constraint firstItem="8Pb-sT-cfM" firstAttribute="top" secondItem="cWD-Au-bxg" secondAttribute="bottom" constant="24" id="jgk-P5-3yb"/>
+                    <constraint firstItem="2kY-Pu-Rds" firstAttribute="trailing" secondItem="8Pb-sT-cfM" secondAttribute="trailing" id="mAa-7F-8J1"/>
+                    <constraint firstItem="ixv-1J-dke" firstAttribute="top" secondItem="j6n-sw-6ln" secondAttribute="bottom" constant="44" id="mxo-C3-vpO"/>
+                    <constraint firstItem="4LX-mS-uC6" firstAttribute="leading" secondItem="mrY-YK-7KY" secondAttribute="trailing" id="n7r-c0-qcu"/>
+                    <constraint firstItem="qb8-9R-yHm" firstAttribute="trailing" secondItem="1cJ-cd-8QB" secondAttribute="trailing" id="nie-v5-vPm"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="sVC-po-syg" secondAttribute="trailing" constant="2" id="odW-67-t0m"/>
+                    <constraint firstItem="j6n-sw-6ln" firstAttribute="trailing" secondItem="4LX-mS-uC6" secondAttribute="trailing" id="pYX-yo-QMr"/>
+                    <constraint firstItem="cWD-Au-bxg" firstAttribute="top" secondItem="CEw-ah-wQC" secondAttribute="bottom" constant="34" id="rOW-LZ-YWL"/>
+                    <constraint firstItem="f9G-RB-u12" firstAttribute="trailing" secondItem="cod-Bd-tOK" secondAttribute="trailing" id="rni-6h-51B"/>
+                    <constraint firstItem="qb8-9R-yHm" firstAttribute="top" secondItem="ixv-1J-dke" secondAttribute="bottom" id="sCM-dP-X5n"/>
+                    <constraint firstItem="1cJ-cd-8QB" firstAttribute="leading" secondItem="7SY-JJ-nO0" secondAttribute="leading" id="sFM-pk-tny"/>
+                    <constraint firstItem="mrY-YK-7KY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="27" id="sia-WJ-RIP"/>
+                    <constraint firstItem="7SY-JJ-nO0" firstAttribute="leading" secondItem="CEw-ah-wQC" secondAttribute="leading" id="stV-ve-smS"/>
+                    <constraint firstItem="ixv-1J-dke" firstAttribute="top" secondItem="mrY-YK-7KY" secondAttribute="bottom" constant="24" id="xqo-Xb-HsB"/>
+                    <constraint firstItem="1cJ-cd-8QB" firstAttribute="top" secondItem="qb8-9R-yHm" secondAttribute="bottom" constant="24" id="yqt-fN-sgx"/>
+                    <constraint firstItem="ixv-1J-dke" firstAttribute="trailing" secondItem="f9G-RB-u12" secondAttribute="trailing" id="zzb-rt-zrX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bankAccNIRCTF" destination="cod-Bd-tOK" id="jiq-zP-2l2"/>
+                <outlet property="bankAccNameTF" destination="qb8-9R-yHm" id="j81-eK-RlW"/>
+                <outlet property="bankAccNoTF" destination="f9G-RB-u12" id="W6W-wY-DYG"/>
+                <outlet property="bankAccountNIRCLoc" destination="7SY-JJ-nO0" id="xqn-XN-7xT"/>
+                <outlet property="bankAccountNameLoc" destination="ixv-1J-dke" id="0zG-rH-Scl"/>
+                <outlet property="bankAccountNoLoc" destination="1cJ-cd-8QB" id="Pog-4H-OgY"/>
+                <outlet property="bankBranch" destination="kdd-li-TQv" id="dQ7-gb-HVv"/>
+                <outlet property="bankBranchLoc" destination="8Pb-sT-cfM" id="8xI-W7-iGF"/>
+                <outlet property="chinaBankDistrictLbl" destination="cWD-Au-bxg" id="dIg-EA-JhO"/>
+                <outlet property="chinaBankLbl" destination="mrY-YK-7KY" id="9tY-88-8sT"/>
+                <outlet property="chinaBankLoc" destination="j6n-sw-6ln" id="WcZ-5Z-c9A"/>
+                <outlet property="chinaBankStateLbl" destination="WAb-El-Ivc" id="lfa-hw-j7j"/>
+                <outlet property="chinsBankCountryLoc" destination="CEw-ah-wQC" id="uYS-3a-r3P"/>
+                <outletCollection property="dropDownButton" destination="4LX-mS-uC6" id="c2L-pm-pd1"/>
+                <outletCollection property="dropDownButton" destination="sVC-po-syg" id="8rT-ef-E0z"/>
+                <outletCollection property="dropDownButton" destination="2kY-Pu-Rds" id="3Fv-Wy-RCv"/>
+            </connections>
+            <point key="canvasLocation" x="-320" y="-126"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrow-picker-grey" width="17" height="10"/>
+    </resources>
+</document>

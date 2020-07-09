@@ -1,0 +1,68 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - BEMCheckBox (1.2.1)
+  - CardIO (5.4.1)
+  - FTPickerView (0.1.2)
+  - iOS-Slide-Menu (1.5)
+  - LCLoadingHUD (1.0.6)
+  - Mantle (2.0.7):
+    - Mantle/extobjc (= 2.0.7)
+  - Mantle/extobjc (2.0.7)
+  - PayPal-iOS-SDK (2.16.1):
+    - PayPal-iOS-SDK/CardIO (= 2.16.1)
+    - PayPal-iOS-SDK/Core (= 2.16.1)
+  - PayPal-iOS-SDK/CardIO (2.16.1):
+    - CardIO (~> 5.4.1)
+  - PayPal-iOS-SDK/Core (2.16.1)
+  - UIDevice-Hardware (0.1.8)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - BEMCheckBox
+  - FTPickerView (~> 0.1.1)
+  - iOS-Slide-Menu (~> 1.5)
+  - LCLoadingHUD (~> 1.0)
+  - Mantle (~> 2.0)
+  - PayPal-iOS-SDK
+  - UIDevice-Hardware (~> 0.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - BEMCheckBox
+    - CardIO
+    - FTPickerView
+    - iOS-Slide-Menu
+    - LCLoadingHUD
+    - Mantle
+    - PayPal-iOS-SDK
+    - UIDevice-Hardware
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  BEMCheckBox: 264b8b72aa92adbfefa265cc58a0cdb86b207b9f
+  CardIO: 56983b39b62f495fc6dae9ad7cf875143df06443
+  FTPickerView: fcd9deb51457dfeab5a514ed18b625b9958b92db
+  iOS-Slide-Menu: 40b0cbd8916c42afc755f0869793cd09e7a32102
+  LCLoadingHUD: 8b20d4c10d47c3d4a64978cb966532788c183588
+  Mantle: bc40bb061d8c2c6fb48d5083e04d928c3b7f73d9
+  PayPal-iOS-SDK: a1c566b15e9535f6ac3781d260383fd477e0a566
+  UIDevice-Hardware: ecb52d9a7b223b31f81982358e2b0769ac1a7918
+
+PODFILE CHECKSUM: aed5e97c432ba21cd6484240e057d1d9ff7c4f42
+
+COCOAPODS: 1.8.4

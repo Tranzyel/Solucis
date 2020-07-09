@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </array>
+        <array key="OpenSans-Semibold.ttf">
+            <string>OpenSans-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="146" id="KGk-i7-Jjw" customClass="DashboardTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="149.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="USD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="52I-pj-jpZ">
+                        <rect key="frame" x="102" y="21" width="116" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="vOf-ga-TMm"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="12"/>
+                        <color key="textColor" red="0.69803921570000005" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3431.90" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="idl-0Z-Hwe">
+                        <rect key="frame" x="56" y="36" width="208" height="53"/>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="45"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOTAL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yin-Fv-41i">
+                        <rect key="frame" x="92" y="86" width="136" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="ATw-Ht-KFp"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
+                        <color key="textColor" red="0.98039215690000003" green="0.69803921570000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aMh-zs-zn8">
+                        <rect key="frame" x="193" y="115" width="91" height="15.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="91" id="Z4j-8A-k1n"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="11"/>
+                        <state key="normal" title="VIEW MORE">
+                            <color key="titleColor" red="0.69803921570000005" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="52I-pj-jpZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="86" id="14c-5E-lQP"/>
+                    <constraint firstItem="yin-Fv-41i" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="76" id="2eO-00-ccK"/>
+                    <constraint firstItem="yin-Fv-41i" firstAttribute="top" secondItem="52I-pj-jpZ" secondAttribute="bottom" constant="44" id="5Vg-WG-e4c"/>
+                    <constraint firstItem="idl-0Z-Hwe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="40" id="5dV-uQ-kyu"/>
+                    <constraint firstItem="52I-pj-jpZ" firstAttribute="centerX" secondItem="idl-0Z-Hwe" secondAttribute="centerX" id="Csk-40-Hak"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="aMh-zs-zn8" secondAttribute="bottom" constant="8.5" id="L9L-YZ-afh"/>
+                    <constraint firstItem="52I-pj-jpZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="Rbm-ap-Won"/>
+                    <constraint firstItem="aMh-zs-zn8" firstAttribute="top" secondItem="idl-0Z-Hwe" secondAttribute="bottom" constant="26" id="XCY-Cc-TtN"/>
+                    <constraint firstItem="52I-pj-jpZ" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="iG9-ll-Fdo"/>
+                    <constraint firstItem="idl-0Z-Hwe" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="25" id="jdP-7y-Owf"/>
+                    <constraint firstItem="idl-0Z-Hwe" firstAttribute="centerX" secondItem="yin-Fv-41i" secondAttribute="centerX" id="lsL-JF-jbe"/>
+                    <constraint firstItem="aMh-zs-zn8" firstAttribute="top" secondItem="yin-Fv-41i" secondAttribute="bottom" constant="8" symbolic="YES" id="vA2-ZV-2Z1"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="aMh-zs-zn8" secondAttribute="trailing" constant="20" id="x5k-MT-Gml"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="amount" destination="idl-0Z-Hwe" id="73O-1X-gcg"/>
+                <outlet property="category" destination="yin-Fv-41i" id="4bM-ar-Q8V"/>
+            </connections>
+            <point key="canvasLocation" x="326" y="346"/>
+        </tableViewCell>
+    </objects>
+</document>

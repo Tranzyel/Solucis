@@ -1,0 +1,290 @@
+//Login Page
+"login_title" = "登入";
+"login_signIn" = "登入";
+"login_forgotPassword" = "忘记登入密码";
+"login_register_new_member" = "免费注册";
+"login_register_new_account" = "注册";
+"login_error_message" = "你输入的密码和账户名不匹配";
+"pre_login_products_title" = "产品";
+"username_placeholder" = "帳號";
+"password_placeholder" = "密码";
+"login_remember_me" = "记住帐号";
+
+//Home Page
+"home_title" = "首页";
+"home_welcome" = "欢迎";
+"home_dashboard_title" = "讯息专区";
+"home_repurchase_title" = "购买";
+"home_eWallet_title" = "电子账户";
+"home_register_title" = "注册";
+"home_ePOINT_title" = "专营店积分";
+
+//Home Sub-Menu
+"home_personal_sales_history" = "个人销售业绩";
+"home_all_sales_history" = "销售业绩总汇";
+"home_about_us" = "关于我们";
+"home_exclusive_store_listing" = "专业店列表";
+"home_distributor_ePoint" = "专业店积分";
+"home_eAccount_statement" = "电子帐户报表";
+"home_eAccount_transfer" = "电子帐户转帐";
+"home_sales_bonus" = "销售奖金";
+"home_annoucement" = "通告";
+"home_lead_management" = "潜在顾客";
+
+//Side Menu
+"menu_home_title" = "首页";
+"menu_dashboard_title" = "讯息专区";
+"menu_repurchase_title" = "购买";
+"menu_register_distributor_title" = "注册新微店";
+"menu_personal_sales_history_title" = "个人销售业绩";
+"menu_all_sales_history_title" = "销售业绩总汇";
+"menu_eAccount_statement_title" = "电子帐户报表";
+"menu_sales_bonus_title" = "销售奖金";
+"menu_ePoint_title" = "专营店积分";
+"menu_announcement_title" = "通告";
+"menu_about_us_title" = "关于我们";
+"menu_exclusive_store_title" = "专业店列表";
+"menu_profile_title" = "个人资料";
+"menu_withdraw_title" = "电子账户提现";
+"menu_log_out_title" = "退出";
+
+//Navigation Bar Title
+"nav_bar_repurchase_title" = "购买";
+"nav_bar_announcement_title" = "通告";
+"nav_bar_home_title" = "首页";
+"nav_bar_dashboard_title" = "讯息专区";
+"nav_bar_all_sales_title" = "销售业绩总汇";
+"nav_bar_personal_sales_title" = "个人销售业绩";
+"nav_bar_sales_bonus_title" = "销售奖金";
+"nav_bar_statement_title" = "报表";
+"nav_bar_ePoint_PV_title" = "积分(PV)";
+"nav_bar_register_distributor_title" = "注册新微店";
+"nav_bar_about_us" = "关于我们";
+"nav_bar_exclusive_store_title" = "专业店列表";
+"nav_bar_eAccount_transfer_title" = "电子帐户转移";
+"nav_bar_profile_title" = "个人资料";
+"nav_bar_withdraw_title" = "电子账户提现";
+
+//Repurchase - Member
+"rep_page_member" = "专营店";
+"rep_member_info_header" = "专营店资讯";
+"rep_network_info_header" = "介绍人资讯";
+"rep_member_id" = "专营店代码";
+"rep_member_name" = "专营店姓名";
+"rep_rank" = "聘位";
+"rep_sponsor_id" = "介绍人代码";
+"rep_sponsor_name" = "介绍人姓名";
+
+//PickerView
+"picker_done" = "完成";
+"picker_cancel" = "取消";
+
+//================================================
+
+//Repurchase - Place Order
+"rep_page_place_order" = "下订单";
+"rep_title_summary" = "总结";
+"rep_total_bv" = "奖金值总计";
+"rep_net_price" = "净价";
+
+//Repurchase - Delivery Info
+"rep_page_delivery_info" = "邮寄方式";
+"rep_delivery_to" = "交付给";
+"rep_delivery_address" = "地址";
+"rep_delivery_address2" = "地址 2";
+"rep_delivery_address3" = "地址 3";
+"rep_delivery_address4" = "地址 4";
+"rep_reciever_name" = "收货人姓名 *";
+"rep_post_code" = "邮区号码 *";
+"rep_country" = "国家 *";
+"rep_state" = "省 / 州属 *";
+"rep_city" = "市 / 城镇";
+"rep_mobile_phone" = "手机号码 *";
+"rep_ic_number" = "身份证号码 *";
+
+//Repurchase - Purchase Info
+"rep_page_purchase_info" = "购物资讯";
+"rep_member_details_header" = "专营店资料";
+"rep_order_summary_header" = "购物摘要";
+"rep_bill_summary" = "订单摘要";
+"rep_subtotal" = "小计";
+"rep_gst" = "消费税";
+"rep_delivery_charges" = "运送费";
+"rep_total_include_gst" = "总计含消费税";
+"rep_total" = "总计";
+
+//Repurchase - Payment Method
+"rep_page_payment_method" = "付款方式";
+"rep_eACCOUNT" = "电子账户";
+"rep_total_purchase" = "购物总表";
+"rep_eAccount_Balance" = "电子账户存额";
+"rep_balance_after_purchase" = "帐户剩余";
+"rep_ePin" = "电子账户密码 *";
+"rep_button_check_out" = "结账";
+
+// Register - Member
+"reg_page_member" = "专营店";
+"reg_network_info_header" = "专营店资讯";
+"reg_sponsor_id" = "推荐人代码";
+"reg_sponsor_name" = "推荐人姓名";
+"reg_member_info_header" = "专营店资讯";
+"reg_nationality" = "国籍";
+"reg_register_type" = "注册类型";
+"reg_member_name" = "专营店姓名 *";
+"reg_dob" = "出生日期";
+"reg_language" = "语言";
+"reg_language_description" = "这将决定发送到您手机的短讯语言";
+"reg_contact_info_header" = "个人信息";
+"reg_correspondance" = "通信";
+"reg_country_code" = "国家代码";
+"reg_mobile" = "手机号码";
+"reg_paypal_account_info" = "PayPal 账户资料";
+"reg_paypal_nationality" = "您的PayPal账户注册国籍";
+"reg_paypal_email" = "您的PayPal账户注册电子邮箱";
+"reg_paypal_account_name" = "您的Paypal姓名";
+"reg_terms_and_conditions_header" = "条例与限制";
+"reg_terms_and_conditions_desc" = "我在此确认上述新的经销商已购买产品。我确认我已经向他/她解释了所有的条款与规则。我同意将承担全部责任，以确保这一位新的经销商理解和接受公司条款与规则";
+"reg_verify_page" = "校验";
+"reg_check_out_page" = "结账";
+"reg_summary_requirement_text" = "只需要积分 168(PV) 就能成为专营店";
+"reg_alipay_account_info_header" = "支付宝账户资料";
+"reg_alipay_account_number" = "您的支付宝账号";
+"reg_alipay_account_name" = "您的支付宝认证姓名";
+
+"reg_bank_account_info_headear" = "银行账户资料";
+"reg_china_bank" = "中国银行";
+"reg_bank_account_name" = "银行账号姓名";
+"reg_bank_account_number" = "银行帐户";
+"reg_bank_account_nirc" = "身份证";
+"reg_china_bank_country" = "银行省份城市";
+"reg_china_bank_branch" = "开户网点";
+
+
+//Announcement
+"announcement_title" = "标题";
+"announcement_date" = "日期";
+"announcement_view_details" = "查看(视图)";
+
+//Sales - Date
+"date_filter_today" = "今天";
+"date_filter_yesterday" = "1天前";
+"date_filter_last_7_days" = "首七天";
+"date_filter_last_30_days" = "首30天";
+"date_filter_this_month" = "这个月";
+"date_filter_last_month" = "上个月";
+"date_filter_all_time" = "全部";
+"date_cancel" = "取消";
+
+//Personal Sales
+"personal_sales_doc_no" = "文件编号";
+"personal_sales_submitted_date" = "提交日期";
+"personal_sales_PV" = "专营店积分";
+"personal_sales_sdo_no" = "出货单号";
+"personal_sales_consignment_no" = "快递单号";
+"personal_sales_consignment_date" = "快递日期";
+
+//All Sales History
+"all_sales_doc_no" = "文件编号";
+"all_sales_type" = "类型";
+"all_sales_submitted_date" = "提交日期";
+"all_sales_pv" = "专营店积分";
+"all_sales_member" = "专营店";
+
+//Sales Bonus
+"sales_bonus_date" = "日期";
+"sales_bonus_retail_profit" = "RETAIL 零售奖金";
+"sales_bonus_exclusive_shop_profit" = "专营店分红";
+"sales_bonus_total" = "总数";
+
+//E-Point + E-Account Statement
+"ePoint_doc_no" = "文件编号";
+"ePoint_trans_date" = "交易日期";
+"ePoint_in" = "进";
+"ePoint_out" = "出";
+"ePoint_balance" = "结余";
+"ePoint_description" = "说明";
+
+//Dashboard
+"dashboard_total" = "总数";
+"dashboard_retail_profit" = "零售奖金";
+"dashboard_exclusive_shop_profits" = "专营店分红";
+
+//Profile
+"nav_right_bar_button_item_update" = "更新";
+"update_profile_member_identification" = "身份证号码";
+"update_profile_member_desc" = "亿万航网站业务交易是通过电子账户结帐收款，及支付销售奖金给专营店。如需提现，您需要拥有一个PayPal账户/支付宝/中国银行账户。";
+"update_profile_nav_title" = "更新个人资料";
+"update_profile_correspondence_address" = "通信地址";
+"update_profile_shipping_address" = "运送";
+
+//Others
+"title_next_button" = "下一步";
+
+//=========================== MISSED OUT ====================================
+"title_submit_button" = "提交";
+"rep_total_pv" = "总积分";
+"loading_text" = "正在加载...";
+"title_ePOINT" = "专营店积分";
+"eTransfer_remark" = "备注";
+"eTransfer_amount" = "共计";
+"menu_eAccount_transfer_title" = "电子帐户转移";
+"eTransfer_verify_button" = "校验";
+"enter_epin_code_placeholder" = "输入您的代码";
+
+//Exclusive Store Listing
+"esl_member_code" = "专营店代码";
+"esl_name" = "姓名";
+"esl_sponsor_code" = "推荐人代码";
+"esl_mobile" = "手机号码";
+"esl_joined_date" = "注册日期";
+"esl_rank" = "聘位";
+"esl_level" = "级别";
+
+//Director
+"reg_director_name" = "法定代表人姓名";
+"reg_director_NIRC" = "法定代表人身份证";
+"reg_director_mobile" = "手机号码";
+"reg_director_info_header" = "法定代表人资料";
+
+//Register - Verify
+"reg_verify_sponsor" = "推荐人姓名";
+"reg_verify_name" = "姓名";
+"reg_ID_NO" = "护照 / 身份证";
+"reg_pp_registered_nationality" = "PayPal 账户注册国籍";
+"reg_pp_account_registered" = "PayPal 已注册账户";
+"reg_handphone" = "手机号码";
+
+
+//Error message
+"msg_enter_ePin" = "请输入电子账户密码";
+"msg_empty_member_name" = "姓名不可留空";
+"msg_unexpected_error_please_try_again" = "系统繁忙, 请稍候再试";
+"msg_empty_fields" = "不可留空";
+"msg_no_result_found" = "没有找到数据";
+"msg_password_not_match" = "Password not matched";
+//Profile
+"profile_rank_title" = "现今专营店級別（上个奖金计算月";
+"profile_memberCode_title" = "专营店代码";
+"profile_name_title" = "姓名";
+"profile_ic_title" = "身份号码 .";
+"profile_joinedDate_title" = "吉店开张日";
+"profile_status_title" = "状态";
+"profile_sponsorCode_title" = "介紹人代码";
+"profile_sponsorName_title" = "介紹人姓名";
+"profile_address_title" = "通信地址";
+"profile_postCode_title" = "邮区号码";
+"profile_mobile_title" = "手机号码";
+"profile_telHome_title" = "住家电话";
+"profile_telOffice_title" = "办公室电话";
+"profile_fax_title" = "传真";
+"profile_email_title" = "电邮";
+"profile_paypalNation_title" = "PayPal账户注册国籍";
+"profile_paypalEmail_title" = "PayPal账户注册电子邮箱";
+
+//New Join
+"reg_new_team_info_header" = "专营店资讯";
+"withdrawal_method" = "提现方式";
+"reg_new_verify_password" = "验证密码";
+"reg_new_name" = "姓名";
+"reg_new_company_code" = "推荐人代码";
+"reg_new_ic_or_passport" = "身份证/护照";

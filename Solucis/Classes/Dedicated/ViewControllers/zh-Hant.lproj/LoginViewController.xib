@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o78-dU-JPZ">
+                    <rect key="frame" x="40" y="27" width="240" height="168"/>
+                </imageView>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ctI-hM-2YT">
+                    <rect key="frame" x="40" y="232" width="240" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ie4-5X-8cI">
+                    <rect key="frame" x="40" y="277" width="240" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JDM-ah-ATE">
+                    <rect key="frame" x="40" y="446" width="240" height="30"/>
+                    <state key="normal" title="Forgot password."/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xu3-zu-KiC">
+                    <rect key="frame" x="40" y="484" width="240" height="30"/>
+                    <state key="normal" title="Button"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fgm-dZ-CTp">
+                    <rect key="frame" x="40" y="400" width="240" height="30"/>
+                    <state key="normal" title="Sign In"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Fgm-dZ-CTp" firstAttribute="top" secondItem="ie4-5X-8cI" secondAttribute="bottom" constant="93" id="1DS-vl-d8M"/>
+                <constraint firstItem="xu3-zu-KiC" firstAttribute="leading" secondItem="JDM-ah-ATE" secondAttribute="leading" id="42Z-dV-scd"/>
+                <constraint firstItem="Fgm-dZ-CTp" firstAttribute="trailing" secondItem="JDM-ah-ATE" secondAttribute="trailing" id="6ZA-Jj-eVd"/>
+                <constraint firstItem="xu3-zu-KiC" firstAttribute="top" secondItem="JDM-ah-ATE" secondAttribute="bottom" constant="8" symbolic="YES" id="6y0-So-XtM"/>
+                <constraint firstItem="JDM-ah-ATE" firstAttribute="top" secondItem="Fgm-dZ-CTp" secondAttribute="bottom" constant="16" id="C25-Yc-lXs"/>
+                <constraint firstItem="ctI-hM-2YT" firstAttribute="trailing" secondItem="ie4-5X-8cI" secondAttribute="trailing" id="Fut-Ot-x4E"/>
+                <constraint firstItem="o78-dU-JPZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="Fxi-dn-tbS"/>
+                <constraint firstItem="Fgm-dZ-CTp" firstAttribute="trailing" secondItem="ie4-5X-8cI" secondAttribute="trailing" id="NK4-wp-5Cj"/>
+                <constraint firstItem="ie4-5X-8cI" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Osn-DN-iie"/>
+                <constraint firstItem="o78-dU-JPZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="27" id="P3v-rv-zvJ"/>
+                <constraint firstItem="ie4-5X-8cI" firstAttribute="top" secondItem="ctI-hM-2YT" secondAttribute="bottom" constant="15" id="Xud-vF-CDN"/>
+                <constraint firstItem="o78-dU-JPZ" firstAttribute="trailing" secondItem="ctI-hM-2YT" secondAttribute="trailing" id="baA-UX-R1P"/>
+                <constraint firstItem="ie4-5X-8cI" firstAttribute="leading" secondItem="ctI-hM-2YT" secondAttribute="leading" id="dww-iI-OUr"/>
+                <constraint firstItem="JDM-ah-ATE" firstAttribute="trailing" secondItem="xu3-zu-KiC" secondAttribute="trailing" id="hiu-48-Vlj"/>
+                <constraint firstAttribute="bottom" secondItem="xu3-zu-KiC" secondAttribute="bottom" constant="54" id="mre-xa-K2d"/>
+                <constraint firstItem="o78-dU-JPZ" firstAttribute="leading" secondItem="ctI-hM-2YT" secondAttribute="leading" id="uQy-WT-Atk"/>
+                <constraint firstItem="ie4-5X-8cI" firstAttribute="leading" secondItem="Fgm-dZ-CTp" secondAttribute="leading" id="vgB-9X-xCe"/>
+                <constraint firstItem="ctI-hM-2YT" firstAttribute="top" secondItem="o78-dU-JPZ" secondAttribute="bottom" constant="37" id="yMA-QU-DxP"/>
+                <constraint firstItem="JDM-ah-ATE" firstAttribute="leading" secondItem="Fgm-dZ-CTp" secondAttribute="leading" id="z2U-v4-dIu"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="235" y="107"/>
+        </view>
+    </objects>
+</document>

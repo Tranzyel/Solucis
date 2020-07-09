@@ -1,0 +1,289 @@
+//Login Page
+"login_title" = "LOGIN";
+"login_signIn" = "Sign In";
+"login_forgotPassword" = "Forgot Password";
+"login_register_new_member" = "Register New Member";
+"login_register_new_account" = "Register New Account";
+"login_error_message" = "Incorrect username or password";
+"pre_login_products_title" = "PRODUCTS";
+"username_placeholder" = "Username";
+"password_placeholder" = "Password";
+"login_remember_me" = "Remember Me";
+
+//Home Page
+"home_title" = "HOME";
+"home_welcome" = "Welcome";
+"home_dashboard_title" = "Dashboard";
+"home_repurchase_title" = "Repurchase";
+"home_eWallet_title" = "E-Account";
+"home_register_title" = "Register";
+"home_ePOINT_title" = "ePoint";
+
+//Home Sub-Menu
+"home_personal_sales_history" = "Personal Sales History";
+"home_all_sales_history" = "All Sales History";
+"home_about_us" = "About Us";
+"home_exclusive_store_listing" = "Exclusive Store Listing";
+"home_distributor_ePoint" = "Distributor E-Point";
+"home_eAccount_statement" = "E-Account Statement";
+"home_eAccount_transfer" = "E-Account Transfer";
+"home_sales_bonus" = "Sales Bonus";
+"home_annoucement" = "Announcement";
+"home_lead_management" = "Lead Management";
+
+//Side Menu
+"menu_home_title" = "Home";
+"menu_dashboard_title" = "Dashboard";
+"menu_repurchase_title" = "Repurchase";
+"menu_register_distributor_title" = "Register Distributor";
+"menu_personal_sales_history_title" = "Personal Sales History";
+"menu_all_sales_history_title" = "All Sales History";
+"menu_eAccount_statement_title" = "E-Account Statement";
+"menu_eAccount_transfer_title" = "E-Account Transfer";
+"menu_sales_bonus_title" = "Sales Bonus";
+"menu_ePoint_title" = "E-Point";
+"menu_announcement_title" = "Announcement";
+"menu_about_us_title" = "About Us";
+"menu_exclusive_store_title" = "Exclusive Store Listing";
+"menu_profile_title" = "Profile";
+"menu_withdraw_title" = "E-Account Withdraw";
+"menu_log_out_title" = "Log Out";
+
+//Navigation Bar Title
+"nav_bar_repurchase_title" = "Repurchase";
+"nav_bar_announcement_title" = "Announcement";
+"nav_bar_home_title" = "Home";
+"nav_bar_dashboard_title" = "Dashboard";
+"nav_bar_all_sales_title" = "All Sales";
+"nav_bar_personal_sales_title" = "Personal Sales";
+"nav_bar_sales_bonus_title" = "Sales Bonus";
+"nav_bar_statement_title" = "Statement";
+"nav_bar_ePoint_PV_title" = "E-Point(PV)";
+"nav_bar_register_distributor_title" = "Register Distributor";
+"nav_bar_about_us" = "About Us";
+"nav_bar_exclusive_store_title" = "Exclusive Store Listing";
+"nav_bar_eAccount_transfer_title" = "E-Account Transfer";
+"nav_bar_profile_title" = "Profile";
+"nav_bar_withdraw_title" = "E-Account Withdraw";
+
+//Repurchase - Member
+"rep_page_member" = "MEMBER";
+"rep_member_info_header" = "Member Info";
+"rep_network_info_header" = "Network Info";
+"rep_member_id" = "MEMBER ID";
+"rep_member_name" = "MEMBER NAME";
+"rep_rank" = "RANK";
+"rep_sponsor_id" = "SPONSOR ID";
+"rep_sponsor_name" = "SPONSOR NAME";
+
+//PickerView
+"picker_done" = "Done";
+"picker_cancel" = "Cancel";
+
+//================================================
+
+//Repurchase - Place Order
+"rep_page_place_order" = "PLACE ORDER";
+"rep_title_summary" = "SUMMARY";
+"rep_total_bv" = "TOTAL BV";
+"rep_net_price" = "NET PRICE";
+
+//Repurchase - Delivery Info
+"rep_page_delivery_info" = "DELIVERY INFO";
+"rep_delivery_to" = "DELIVERY TO";
+"rep_delivery_address" = "ADDRESS 1";
+"rep_delivery_address2" = "ADDRESS 2";
+"rep_delivery_address3" = "ADDRESS 3";
+"rep_delivery_address4" = "ADDRESS 4";
+"rep_reciever_name" = "RECEIVER'S NAME *";
+"rep_post_code" = "POST CODE *";
+"rep_country" = "COUNTRY *";
+"rep_state" = "STATE *";
+"rep_city" = "CITY";
+"rep_mobile_phone" = "MOBILE PHONE *";
+"rep_ic_number" = "IC NO *";
+
+//Repurchase - Purchase Info
+"rep_page_purchase_info" = "PURCHASE INFO";
+"rep_member_details_header" = "Member Details";
+"rep_order_summary_header" = "Order Summary";
+"rep_bill_summary" = "BILL SUMMARY";
+"rep_subtotal" = "SUBTOTAL";
+"rep_gst" = "GST";
+"rep_delivery_charges" = "DELIVERY CHARGES";
+"rep_total_include_gst" = "TOTAL(INC.GST)";
+"rep_total" = "TOTAL";
+
+//Repurchase - Payment Method
+"rep_page_payment_method" = "PAYMENT METHOD";
+"rep_eACCOUNT" = "eACCOUNT";
+"rep_total_purchase" = "TOTAL PURCHASE";
+"rep_eAccount_Balance" = "eACCOUNT BALANCE";
+"rep_balance_after_purchase" = "BALANCE AFTER PURCHASE";
+"rep_ePin" = "ePIN*";
+"rep_button_check_out" = "CHECKOUT";
+
+// Register - Member
+"reg_page_member" = "MEMBER";
+"reg_network_info_header" = "Network Info";
+"reg_sponsor_id" = "SPONSOR ID";
+"reg_sponsor_name" = "SPONSOR NAME";
+"reg_member_info_header" = "Member Info";
+"reg_nationality" = "NATIONALITY";
+"reg_register_type" = "REGISTER TYPE";
+"reg_member_name" = "MEMBER NAME*";
+"reg_dob" = "DOB";
+"reg_language" = "LANGUAGE";
+"reg_language_description" = "This will determine the language of sms send to you";
+"reg_contact_info_header" = "Contact Info";
+"reg_correspondance" = "Correspondance";
+"reg_country_code" = "COUNTRY CODE";
+"reg_mobile" = "MOBILE";
+"reg_paypal_account_info" = "Paypal Account Info";
+"reg_paypal_nationality" = "PAYPAL NATIONALITY";
+"reg_paypal_email" = "PAYPAL EMAIL";
+"reg_paypal_account_name" = "PAYPAL ACCOUNT NAME";
+"reg_terms_and_conditions_header" = "Terms and Conditions";
+"reg_terms_and_conditions_desc" = "I hereby confirm that the New Distributor named above has purchased the products. I confirm that I have explained    all the Terms & Conditions to him/her. I agree that I shall take full responsibility to ensure this new distributor understand and has accepted the Terms & Conditions.";
+"reg_verify_page" = "VERIFY";
+"reg_check_out_page" = "CHECK OUT";
+"reg_summary_requirement_text" = "You need at least 168 PV to qualify as a GP";
+"reg_alipay_account_info_header" = "Alipay Account Info";
+"reg_alipay_account_number" = "Alipay Account No.";
+"reg_alipay_account_name" = "Alipay Account Name";
+
+"reg_bank_account_info_headear" = "Bank Account Info";
+"reg_china_bank" = "CHINA BANK";
+"reg_bank_account_name" = "BANK ACCOUNT NAME";
+"reg_bank_account_number" = "BANK ACCOUNT NO.";
+"reg_bank_account_nirc" = "BANK ACCOUNT NIRC";
+"reg_china_bank_country" = "CHINA BANK COUNTRY";
+"reg_china_bank_branch" = "CHINA BANK BRANCH";
+
+//Announcement
+"announcement_title" = "TITLE";
+"announcement_date" = "DATE";
+"announcement_view_details" = "VIEW DETAILS";
+
+//Sales - Date
+"date_filter_today" = "Today";
+"date_filter_yesterday" = "Yesterday";
+"date_filter_last_7_days" = "Last 7 Days";
+"date_filter_last_30_days" = "Last 30 Days";
+"date_filter_this_month" = "This Month";
+"date_filter_last_month" = "Last Month";
+"date_filter_all_time" = "All Time";
+"date_cancel" = "Cancel";
+
+//Personal Sales
+"personal_sales_doc_no" = "Doc.No";
+"personal_sales_submitted_date" = "Submitted Date";
+"personal_sales_PV" = "PV";
+"personal_sales_sdo_no" = "SDO No.";
+"personal_sales_consignment_no" = "Consignment No";
+"personal_sales_consignment_date" = "Consignment Date";
+
+//All Sales History
+"all_sales_doc_no" = "Doc.No";
+"all_sales_type" = "Type";
+"all_sales_submitted_date" = "Submitted Date";
+"all_sales_pv" = "PV";
+"all_sales_member" = "Member";
+
+//Sales Bonus
+"sales_bonus_date" = "DATE";
+"sales_bonus_retail_profit" = "RETAIL PROFIT";
+"sales_bonus_exclusive_shop_profit" = "EXCLUSIVE SHOP PROFIT";
+"sales_bonus_total" = "TOTAL";
+
+//E-Point + E-Account Statement
+"ePoint_doc_no" = "DOC NO";
+"ePoint_trans_date" = "TRANS DATE";
+"ePoint_in" = "IN";
+"ePoint_out" = "OUT";
+"ePoint_balance" = "BALANCE";
+"ePoint_description" = "DESCRIPTION";
+
+//Dashboard
+"dashboard_total" = "TOTAL";
+"dashboard_retail_profit" = "RETAIL PROFIT";
+"dashboard_exclusive_shop_profits" = "EXCLUSIVE SHOP PROFITS";
+
+//Profile
+"nav_right_bar_button_item_update" = "Update";
+"update_profile_member_identification" = "IC/Passport No";
+"update_profile_member_desc" = "MC-Ocean International uses eAccount as online purchase payment gateway, and for paying monthly sales bonus to Exclusive Shop.If need to withdraw, Exclusive Shop need to have a valid PayPal account OR Alipay OR China Bank Account for these 2 purposes.";
+"update_profile_nav_title" = "Update Personal Profile";
+"update_profile_correspondence_address" = "Correspondence";
+"update_profile_shipping_address" = "Shipping";
+
+//Others
+"title_next_button" = "NEXT";
+
+//=========================== MISSED OUT ====================================
+"title_submit_button" = "SUBMIT";
+"rep_total_pv" = "TOTAL PV";
+"loading_text" = "Loading...";
+"title_ePOINT" = "ePOINT";
+"eTransfer_remark" = "REMARK";
+"eTransfer_amount" = "AMOUNT";
+"eTransfer_verify_button" = "Verify";
+"enter_epin_code_placeholder" = "Enter ePin code";
+
+//Exclusive Store Listing
+"esl_member_code" = "MEMBER CODE";
+"esl_name" = "NAME";
+"esl_sponsor_code" = "SPONSOR CODE";
+"esl_mobile" = "MOBILE";
+"esl_joined_date" = "JOINED DATE";
+"esl_rank" = "RANK";
+"esl_level" = "Level";
+
+//Director
+"reg_director_name" = "DIRECTOR NAME";
+"reg_director_NIRC" = "DIRECTOR NIRC";
+"reg_director_mobile" = "MOBILE";
+"reg_director_info_header" = "Director Info";
+
+//Register - Verify
+"reg_verify_sponsor" = "SPONSOR";
+"reg_verify_name" = "NAME";
+"reg_ID_NO" = "ID NO";
+"reg_pp_registered_nationality" = "PayPal REGISTERED NATIONALITY";
+"reg_pp_account_registered" = "PayPal ACCOUNT REGISTERED";
+"reg_handphone" = "H/P";
+
+
+//Error message
+"msg_enter_ePin" = "Please enter your e-Pin";
+"msg_empty_member_name" = "Member Name cannot be empty";
+"msg_unexpected_error_please_try_again" = "Unexpected error occured , please try again later";
+"msg_empty_fields" = "Fields cannot be empty";
+"msg_no_result_found" = "No result found";
+"msg_password_not_match" = "Password not matched";
+//Profile
+"profile_rank_title" = "Current Rank from Last Bonus Month";
+"profile_memberCode_title" = "Member Code";
+"profile_name_title" = "Name";
+"profile_ic_title" = "IC No.";
+"profile_joinedDate_title" = "Joined Date";
+"profile_status_title" = "Status";
+"profile_sponsorCode_title" = "Sponsor Code";
+"profile_sponsorName_title" = "Sponsor Name";
+"profile_address_title" = "Correspondence Address";
+"profile_postCode_title" = "Postcode";
+"profile_mobile_title" = "Mobile";
+"profile_telHome_title" = "Tel (H)";
+"profile_telOffice_title" = "Tel (O)";
+"profile_fax_title" = "Fax";
+"profile_email_title" = "Email";
+"profile_paypalNation_title" = "Paypal Nationality";
+"profile_paypalEmail_title" = "Paypal Email";
+
+//New Join
+"reg_new_team_info_header" = "Team Info";
+"withdrawal_method" = "Withdraw Method";
+"reg_new_verify_password" = "Verify Password";
+"reg_new_name" = "Name";
+"reg_new_company_code" = "Company Code";
+"reg_new_ic_or_passport" = "IC/Passport No";
