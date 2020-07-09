@@ -15,7 +15,7 @@
 #import "NSDate+DateRange.h"
 #import <AlipaySDK/AlipaySDK.h>
 #import <UIDevice-Hardware/UIDevice-Hardware.h>
-//GGWP
+
 @interface AppDelegate ()
 @property ( nonatomic , strong ) SlideNavigationController *slideNavigationController;
 @end
